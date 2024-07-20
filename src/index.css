@@ -3,5 +3,39 @@
 @tailwind utilities;
 
 body {
-  background-color: black;
+  background-color: #32012F;
+  color: #E2DFD0;
+}
+
+.navItems {
+  padding: 5px 5px;
+  transition: ease-in 0.1s;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.navItems:hover {
+  background-color: #ffa500;
+  padding: 5px;
+  color: #524C42;
+}
+
+.squareCard {
+  position: relative;
+  height: 18rem;
+  width: 24rem;
+  border-radius: 1rem;
+}
+
+.cardDetails {
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.detailsHeader{
+  font-weight: 600;
 }
